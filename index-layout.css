@@ -1,0 +1,34 @@
+.global_nav {
+	margin: 0 auto;
+    padding: 0 22px;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px;
+    background: rgba(0,0,0,0.92);
+}
+.global_navigation_bar {
+	font-size: 1em;
+    font-family: 'Gotham Medium',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+
+.global_navigation_bar_content {
+	cursor: default;
+    margin: 0 -10px;
+    width: auto;
+    height: 44px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    user-select: none;
+}
