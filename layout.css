@@ -1,0 +1,440 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+	font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	font-weight: 500;
+	letter-spacing: 0.6px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+
+li a {
+	text-decoration: none;
+	display: block;
+	padding: 14px 16px;
+	color: rgb(57, 60, 65);
+}
+
+li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+
+.bg1 {
+  background-image: url("background4.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.bg2 {
+  background-image: url("background3.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.bg3 {
+  background-image: url("background7.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.bg4 {
+  background-image: url("background9.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.bg5 {
+  background-image: url("background5.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.home {
+  letter-spacing: 3px;
+}
+
+.pic_of_me, .pic_smc, .pic_pasv, .pic_udemy, .pic_coursera, .pic_recipes, .pic_java, .pic_python, .pic_quiz, .pic_ds_java, .pic_sql{
+	width: 100%;
+	height: auto;
+}
+
+.pic_smc:hover, .pic_pasv:hover, .pic_udemy:hover, .pic_coursera:hover, .pic_recipes:hover, .pic_java:hover, .pic_python:hover, .pic_quiz:hover, .pic_ds_java:hover, .pic_sql:hover{
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+  opacity: 0.9;
+}
+
+.welcome {
+  background-color: rgb(220,220,220);
+  width: 20%;
+  height: auto;
+  border: 2px solid rgb(112,128,144);
+  padding: 3px;
+  margin: 20px;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  font-family: Courier New;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.bio {
+  background-color: rgb(220,220,220);
+  width: 20%;
+  height: auto;
+  border: 2px solid rgb(112,128,144);
+  padding: 3px;
+  margin: 20px;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  font-family: Courier New;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.skills {
+  background-color: rgb(220,220,220);
+  width: 20%;
+  height: auto;
+  border: 2px solid rgb(112,128,144);
+  padding: 3px;
+  margin: 20px;
+  position: absolute;
+  top: 30%;
+  left: 73%;
+  font-family: Courier New;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.smc {
+  background-color: white;
+  width: 20%;
+  height: auto;
+  border: 2px solid rgb(220,220,220);
+  padding: 4px;
+  margin: 20px;
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  font-family: Courier New;
+  color: rgb(0, 0, 0);
+}
+
+.pasv {
+  background-color: white;
+  width: 20%;
+  height: auto;
+  border: 2px solid rgb(220,220,220);
+  padding: 4px;
+  margin: 20px;
+  position: absolute;
+  top: 10%;
+  left: 29%;
+  font-family: Courier New;
+  color: rgb(0, 0, 0);
+}
+
+.udemy {
+  background-color: white;
+  width: 20%;
+  height: auto;
+  border: 2px solid rgb(220,220,220);
+  padding: 4px;
+  margin: 20px;
+  position: absolute;
+  top: 10%;
+  left: 51%;
+  font-family: Courier New;
+  color: rgb(0, 0, 0);
+}
+
+.coursera {
+  background-color: white;
+  width: 20%;
+  height: auto;
+  border: 2px solid rgb(220,220,220);
+  padding: 4px;
+  margin: 20px;
+  position: absolute;
+  top: 10%;
+  left: 73%;
+  font-family: Courier New;
+  color: rgb(0, 0, 0);
+}
+
+.recipes{
+  background-color: white;
+  width: 20%;
+  height: 29%;
+  border: 2px solid rgb(220,220,220);
+  padding: 4px;
+  margin: 20px;
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  font-family: Courier New;
+  color: rgb(0, 0, 0);
+}
+
+.java{
+  background-color: white;
+  width: 20%;
+  height: 29%;
+  border: 2px solid rgb(220,220,220);
+  padding: 4px;
+  margin: 20px;
+  position: absolute;
+  top: 10%;
+  left: 29%;
+  font-family: Courier New;
+  color: rgb(0, 0, 0);
+}
+
+.python {
+  background-color: white;
+  width: 20%;
+  height: 29%;
+  border: 2px solid rgb(220,220,220);
+  padding: 4px;
+  margin: 20px;
+  position: absolute;
+  top: 10%;
+  left: 51%;
+  font-family: Courier New;
+  color: rgb(0, 0, 0);
+}
+
+.quiz {
+  background-color: white;
+  width: 20%;
+  height: 29%;
+  border: 2px solid rgb(220,220,220);
+  padding: 4px;
+  margin: 20px;
+  position: absolute;
+  top: 10%;
+  left: 73%;
+  font-family: Courier New;
+  color: rgb(0, 0, 0);
+}
+
+.ds_java{
+  background-color: white;
+  width: 20%;
+  height: 29%;
+  border: 2px solid rgb(220,220,220);
+  padding: 4px;
+  margin: 20px;
+  position: absolute;
+  top: 41%;
+  left: 7%;
+  font-family: Courier New;
+  color: rgb(0, 0, 0);
+}
+
+.sql{
+  background-color: white;
+  width: 20%;
+  height: 29%;
+  border: 2px solid rgb(220,220,220);
+  padding: 4px;
+  margin: 20px;
+  position: absolute;
+  top: 41%;
+  left: 73%;
+  font-family: Courier New;
+  color: rgb(0, 0, 0);
+}
+
+.collapsible {
+  font-family: Courier New;
+  color: rgb(57, 60, 65);
+  background-color: rgba(255,255,255,0.7);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgba(255,255,255,0.9);
+  color: black;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  font-family: Courier New;
+  color: rgb(57, 60, 65);
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+
+.experience {
+  font-family: Courier New;
+  color: rgb(57, 60, 65);
+  background-color: rgba(255,255,255,0.7);
+  padding: 1%;
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contact_form {
+  margin-left:2%;
+  padding:1px 16px;
+  height:70%;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  font-family: Courier New;
+}
+
+h2 {
+  color: rgb(57, 60, 65);
+  font-size: 18px;
+}
+
+input {
+  width: 50%;
+}
+
+select, option {
+  width: 50%;  
+}
+
+#text-form {
+  width: 50%;
+  height: 100px;
+}
+
+.down_resume{
+  font-family: Courier New;
+  background-color: rgb(57, 60, 65);
+  border-radius: 15px 15px 15px 15px;
+}
+.down_resume:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(0, 0, 0);
+}
+      .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          opacity: 0.7;
+      }
+      .fa:hover {
+          opacity: 0.9;
+      }
+      .fa-facebook {
+          background: #3B5998;
+          color: white;
+      }
+      .fa-twitter {
+          background: #55ACEE;
+          color: white;
+      }
+      .fa-linkedin {
+          background: blue;
+          color: white;
+      }
+      .fa-github {
+          background: black;
+          color: white;
+        }
+      .fa-file-pdf {
+          background: white;
+          color: white;
+
+      }
+
+        button {
+          background-color: rgb(57, 60, 65);
+          border: none;
+          color: white;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        button[type=submit]{
+  font-family: Courier New;
+  background-color: rgb(57, 60, 65);
+    border-radius: 15px 15px 15px 15px;
+        }
+      button[type=submit]:hover {
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

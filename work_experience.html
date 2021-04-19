@@ -1,0 +1,63 @@
+<!DOCTYPE  html>
+   <html>
+	<head>
+		<meta charset = "utf-8" content="width=device-width, initial-scale=1">
+		<title>Vladimir Palenov Portfolio</title>
+		<link rel="stylesheet" href="layout.css" type="text/css">
+		<script src="index-script.js"></script>
+     </head>
+     <body>
+     	<div class="bg2">
+     		<br>
+     		<br>
+     		<br>
+     		<br>
+			<div class="experience">
+				<h1>WORK EXPERIENCE:</h1>
+				<br>
+				<h2><a href="resume_vladimir_palenov.pdf" download>
+					<button class="down_resume">Download resume (PDF)<i class="fa-file-pdf-o"></i></button>
+					</a>
+				</h2>
+			</div>
+			<button class="collapsible">Jan 2017 - Current&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logical Edge Services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los Angeles, CA&nbsp;&nbsp;&nbsp;&nbsp;Low voltage tech / Computer repair tech</button>
+			<div class="content">
+			  <p>Computer hardware troubleshooting and repairs. Low voltage wiring and set up: network (CAT5/CAT6, COAX, patch panels, server maintainance). CCTV systems - wiring, cameras setup, DVR setup. TV and audio systems. Windows 10, Mac OS, Linux OS software installation and troubleshooting. </p>
+			</div>
+			<button class="collapsible">Aug 2015 - Current&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hollywood Chick-fil-A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los Angeles, CA&nbsp;&nbsp;&nbsp;&nbsp;Team Lead</button>
+			<div class="content">
+			  <p>Responsibilities: managing daily store operations, customer service, labor management, inventory management</p>
+			</div>
+			<button class="collapsible">Aug 2014 - JUN 2015&nbsp;&nbsp;&nbsp;&nbsp;Svyazenergomontaj MO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moscow, Russia&nbsp;&nbsp;&nbsp;&nbsp;Purchasing department lead</button>
+			<div class="content">
+			  <p>Purchasing of electrical equipment and materials for high and middle voltage power lines and power substations. Inventory management. Work with blueprints, preparing estimates, logistics.</p>
+			</div>
+			<script>
+				var coll = document.getElementsByClassName("collapsible");
+				var i;
+				for (i = 0; i < coll.length; i++) {
+				  coll[i].addEventListener("click", function() {
+				    this.classList.toggle("active");
+				    var content = this.nextElementSibling;
+				    if (content.style.maxHeight){
+				      content.style.maxHeight = null;
+				    } else {
+				      content.style.maxHeight = content.scrollHeight + "px";
+				    } 
+				  });
+				}
+			</script>
+     	</div>
+
+			
+
+		
+			<ul id="nav">
+			  <li class="home"><a href="index.html">VLADIMIR PALENOV</a></li>
+			  <li><a href="work_experience.html">WORK EXPERIENCE</a></li>
+			  <li><a href="projects.html">PROJECTS</a></li>
+			  <li><a href="education.html">EDUCATION</a></li>
+			  <li><a href="contact.html">CONTACT</a></li> 
+			</ul>
+	</body>
+</html>

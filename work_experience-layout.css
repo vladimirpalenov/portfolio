@@ -1,0 +1,99 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+	font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	font-weight: 500;
+	letter-spacing: 0.6px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+
+li a {
+	text-decoration: none;
+	display: block;
+	padding: 14px 16px;
+	color: rgb(57, 60, 65);
+}
+
+li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.bg {
+  background-image: url("background3.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.85;
+}
+
+.home {
+  letter-spacing: 3px;
+}
+
+.collapsible {
+  font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: rgb(57, 60, 65);
+  background-color: rgba(255,255,255,0.7);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgba(255,255,255,0.9);
+  color: black;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: rgb(57, 60, 65);
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+
+.experience {
+  font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: rgb(57, 60, 65);
+  background-color: rgba(255,255,255,0.7);
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+}
