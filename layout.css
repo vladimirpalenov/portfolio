@@ -224,7 +224,7 @@ li a:hover {
 .recipes{
   background-color: white;
   width: 20%;
-  height: 29%;
+  height: 30%;
   border: 2px solid rgb(220,220,220);
   padding: 4px;
   margin: 20px;
@@ -238,7 +238,7 @@ li a:hover {
 .java{
   background-color: white;
   width: 20%;
-  height: 29%;
+  height: 30%;
   border: 2px solid rgb(220,220,220);
   padding: 4px;
   margin: 20px;
@@ -252,7 +252,7 @@ li a:hover {
 .python {
   background-color: white;
   width: 20%;
-  height: 29%;
+  height: 30%;
   border: 2px solid rgb(220,220,220);
   padding: 4px;
   margin: 20px;
@@ -266,7 +266,7 @@ li a:hover {
 .quiz {
   background-color: white;
   width: 20%;
-  height: 29%;
+  height: 30%;
   border: 2px solid rgb(220,220,220);
   padding: 4px;
   margin: 20px;
@@ -280,12 +280,12 @@ li a:hover {
 .ds_java{
   background-color: white;
   width: 20%;
-  height: 29%;
+  height: 30%;
   border: 2px solid rgb(220,220,220);
   padding: 4px;
   margin: 20px;
   position: absolute;
-  top: 41%;
+  top: 42%;
   left: 7%;
   font-family: Courier New;
   color: rgb(0, 0, 0);
@@ -294,12 +294,12 @@ li a:hover {
 .sql{
   background-color: white;
   width: 20%;
-  height: 29%;
+  height: 30%;
   border: 2px solid rgb(220,220,220);
   padding: 4px;
   margin: 20px;
   position: absolute;
-  top: 41%;
+  top: 42%;
   left: 73%;
   font-family: Courier New;
   color: rgb(0, 0, 0);
