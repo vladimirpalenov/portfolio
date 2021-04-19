@@ -34,6 +34,28 @@ li a:hover {
   color: rgb(0, 0, 0);
 }
 
+.typing_hello{
+  overflow: hidden; 
+  border-right: .15em solid white; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
 
 .bg1 {
   background-image: url("background4.jpeg");
