@@ -167,56 +167,56 @@ li a:hover {
 
 .smc {
   background-color: white;
-  width: 20%;
+  width: 18%;
   height: auto;
   border: 2px solid rgb(220,220,220);
   padding: 4px;
   margin: 20px;
   position: absolute;
   top: 10%;
-  left: 7%;
+  left: 8%;
   font-family: Courier New;
   color: rgb(0, 0, 0);
 }
 
 .pasv {
   background-color: white;
-  width: 20%;
+  width: 18%;
   height: auto;
   border: 2px solid rgb(220,220,220);
   padding: 4px;
   margin: 20px;
   position: absolute;
   top: 10%;
-  left: 29%;
+  left: 30%;
   font-family: Courier New;
   color: rgb(0, 0, 0);
 }
 
 .udemy {
   background-color: white;
-  width: 20%;
+  width: 18%;
   height: auto;
   border: 2px solid rgb(220,220,220);
   padding: 4px;
   margin: 20px;
   position: absolute;
   top: 10%;
-  left: 51%;
+  left: 52%;
   font-family: Courier New;
   color: rgb(0, 0, 0);
 }
 
 .coursera {
   background-color: white;
-  width: 20%;
+  width: 18%;
   height: auto;
   border: 2px solid rgb(220,220,220);
   padding: 4px;
   margin: 20px;
   position: absolute;
   top: 10%;
-  left: 73%;
+  left: 74%;
   font-family: Courier New;
   color: rgb(0, 0, 0);
 }
